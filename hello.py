@@ -61,3 +61,9 @@ while i < 101:
 print(sum2)
 
 
+#list 
+fruits = ["mango", "banana", "jack"]
+print(fruits[2])
+for fruit in fruits:
+    print(fruit)
+    
