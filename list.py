@@ -20,3 +20,9 @@ print("Sum of the list is ", sum(int_list))
 print("Minimum value of the list ",min_value)
 print("Maximum value of the list ", max_value)
 
+#minimum value finding by manuallay
+minValue = int_list[0]
+for val in int_list:
+    if val < max_value:
+        max_value = val
+print("Minimum value find...",max_value)
